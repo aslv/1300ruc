@@ -1,0 +1,84 @@
+//Code sanitized to protect the foolish.
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Reflection;
+using System.Web.UI;
+
+namespace Mobile.Web.Control
+{
+    /// <summary>
+    /// Class used to work around Richard being a fucking idiot
+    /// </summary>
+    /// <remarks>
+    /// The point of this is to work around his poor design so that paging will 
+    /// work on a mobile control. The main problem is the BindCompany() method, 
+    /// which he hoped would be able to do everything. I hope he dies.
+    /// </remarks>
+    public abstract class RichardIsAFuckingIdiotControl : MobileBaseControl, ICompanyProfileControl
+    {
+        protected abstract Pager Pager { get; }
+
+        public void BindCompany(int companyId) { }
+
+        public RichardIsAFuckingIdiotControl()
+        {
+            MakeSureNobodyAccidentallyGetsBittenByRichardsStupidity();
+        }
+
+        private void MakeSureNobodyAccidentallyGetsBittenByRichardsStupidity()
+        {
+            // Make sure nobody is actually using that fucking bindcompany method
+            MethodInfo m = this.GetType().GetMethod("BindCompany", BindingFlags.DeclaredOnly | 
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+            if (m != null)
+            {
+                throw new RichardIsAFuckingIdiotException("No!! Don't use the fucking BindCompany method!!!");
+            }
+            // P.S. this method is a joke ... the rest of the class is fucking serious
+        }
+
+        /// <summary>
+        /// This returns true if this control is supposed to be doing anything
+        /// at all for this request. Richard thought it was a good idea to load
+        /// the entire website during every request and have things turn themselves
+        /// off. He also thought bandanas and aviator sunglasses were "fuckin' 
+        /// gnarly, dude."
+        /// </summary>
+        protected bool IsThisTheRightPageImNotSureBecauseRichardIsDumb()
+        {
+            return Request.QueryString["Section"] == this.MenuItemKey;
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            if (IsThisTheRightPageImNotSureBecauseRichardIsDumb())
+            {
+                Page.LoadComplete += new EventHandler(Page_LoadComplete);
+                Pager.RowCount = GetRowCountBecauseRichardIsDumb();
+            }
+            base.OnLoad(e);
+        }
+
+        protected abstract int GetRowCountBecauseRichardIsDumb();
+        protected abstract void BindDataBecauseRichardIsDumb();
+
+        void Page_LoadComplete(object sender, EventArgs e)
+        {
+            BindDataBecauseRichardIsDumb();
+        }
+
+        // the rest of his reduh-ndant interface members
+        public abstract string MenuItemName { get; set; }
+        public abstract string MenuItemKey { get; set; }
+        public abstract bool IsCapable(CapabilityCheck checker, int companyId);
+        public abstract bool ShowInMenu { get; }
+        public virtual Control CreateHeaderControl()
+        {
+            return null;
+        }
+    }
+}
+
+source: 
+http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered
