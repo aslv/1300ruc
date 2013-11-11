@@ -1,4 +1,5 @@
 Връзки, които могат да ви помогнат с теорията:
 = MSDN Library - http://msdn.microsoft.com/en-us/library/gg145045.aspx - Информация за всички класове, обекти и функции за .NET и C# (директно от създателите :) );
 = http://www.dotnetperls.com/ - сайтче, което смятам за полезно;
-= http://unwisesource.free.bg/ - официалният сайт на курса.
+= http://unwisesource.free.bg/ - официалният сайт на курса;
+= http://www.youtube.com/channel/UCoLIK2847jLkdq4SA6jV2cw - нашият канал в YouTube.
