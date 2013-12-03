@@ -21,7 +21,7 @@ namespace CourseDemos
         //Define constructor
         public Child()
         {
-            this.age = 0;
+            age = 0;
         }
 
         //Define another constructor
@@ -30,7 +30,7 @@ namespace CourseDemos
             this.age = age;
         }
 
-        //Dog's default behaviour
+        //Child's default behaviour
         public void TellAge()
         {
             Console.WriteLine("I'm {0} years old",age);
