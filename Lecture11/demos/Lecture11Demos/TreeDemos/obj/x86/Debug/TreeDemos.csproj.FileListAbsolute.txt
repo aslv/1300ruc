@@ -1,0 +1,5 @@
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\TreeDemos\bin\Debug\TreeDemos.exe
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\TreeDemos\bin\Debug\TreeDemos.pdb
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\TreeDemos\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\TreeDemos\obj\x86\Debug\TreeDemos.exe
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\TreeDemos\obj\x86\Debug\TreeDemos.pdb

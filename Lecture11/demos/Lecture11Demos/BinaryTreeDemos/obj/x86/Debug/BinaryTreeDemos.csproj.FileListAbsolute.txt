@@ -1,0 +1,5 @@
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\BinaryTreeDemos\bin\Debug\BinaryTreeDemos.exe
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\BinaryTreeDemos\bin\Debug\BinaryTreeDemos.pdb
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\BinaryTreeDemos\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\BinaryTreeDemos\obj\x86\Debug\BinaryTreeDemos.exe
+D:\CSharp-course\repo\1300ruc\Lecture11\demos\Lecture11Demos\BinaryTreeDemos\obj\x86\Debug\BinaryTreeDemos.pdb

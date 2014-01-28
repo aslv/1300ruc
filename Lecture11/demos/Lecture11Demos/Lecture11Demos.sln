@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeDemos", "TreeDemos\TreeDemos.csproj", "{E0C9D9C4-BD6F-49BA-9DCB-ACA537EC09B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeDemos", "BinaryTreeDemos\BinaryTreeDemos.csproj", "{C9483BF0-1314-4B7C-86B3-EAA7E6CB4E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C9D9C4-BD6F-49BA-9DCB-ACA537EC09B7}.Debug|x86.ActiveCfg = Debug|x86
+		{E0C9D9C4-BD6F-49BA-9DCB-ACA537EC09B7}.Debug|x86.Build.0 = Debug|x86
+		{E0C9D9C4-BD6F-49BA-9DCB-ACA537EC09B7}.Release|x86.ActiveCfg = Release|x86
+		{E0C9D9C4-BD6F-49BA-9DCB-ACA537EC09B7}.Release|x86.Build.0 = Release|x86
+		{C9483BF0-1314-4B7C-86B3-EAA7E6CB4E2F}.Debug|x86.ActiveCfg = Debug|x86
+		{C9483BF0-1314-4B7C-86B3-EAA7E6CB4E2F}.Debug|x86.Build.0 = Debug|x86
+		{C9483BF0-1314-4B7C-86B3-EAA7E6CB4E2F}.Release|x86.ActiveCfg = Release|x86
+		{C9483BF0-1314-4B7C-86B3-EAA7E6CB4E2F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
