@@ -1,0 +1,7 @@
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTreeTests.dll
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTreeTests.pdb
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTree.exe
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTree.pdb
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.csprojResolveAssemblyReference.cache
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.dll
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.pdb

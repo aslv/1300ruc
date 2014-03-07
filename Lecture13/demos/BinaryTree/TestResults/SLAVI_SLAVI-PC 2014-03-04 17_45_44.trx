@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="677f037c-10db-461a-b073-1e6e4477893f" name="SLAVI@SLAVI-PC 2014-03-04 17:45:44" runUser="SLAVI-PC\SLAVI" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d28892ec-565e-4334-ab65-45c144d4e422">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="SLAVI_SLAVI-PC 2014-03-04 17_45_44">
+      <DeploymentItem filename="D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-04T17:45:44.8702405+02:00" queuing="2014-03-04T17:45:44.9092427+02:00" start="2014-03-04T17:45:45.0632515+02:00" finish="2014-03-04T17:45:48.9404733+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddNonExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="6a81d845-d776-a996-12c3-39acecaaf4cf">
+      <Execution id="ba11ed6a-3e70-43ce-83ff-fb22002e9130" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNonExistingValue" />
+    </UnitTest>
+    <UnitTest name="AddExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29">
+      <Execution id="28af5e8e-1b15-4beb-86c0-cfcd73146a33" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddExistingValue" />
+    </UnitTest>
+    <UnitTest name="TraversePostorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="9db95584-4a59-062b-9d1d-372e860bed82">
+      <Execution id="939ed73a-b5ed-4c39-b3f3-0addc9149d3c" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraversePostorderTest" />
+    </UnitTest>
+    <UnitTest name="TraverseInorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="fa1f1bd7-7ca4-3c54-6d93-e128607ee590">
+      <Execution id="ce2f84f9-d850-45d1-a423-32a7765bba9f" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraverseInorderTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a81d845-d776-a996-12c3-39acecaaf4cf" executionId="ba11ed6a-3e70-43ce-83ff-fb22002e9130" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" executionId="28af5e8e-1b15-4beb-86c0-cfcd73146a33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db95584-4a59-062b-9d1d-372e860bed82" executionId="939ed73a-b5ed-4c39-b3f3-0addc9149d3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" executionId="ce2f84f9-d850-45d1-a423-32a7765bba9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba11ed6a-3e70-43ce-83ff-fb22002e9130" testId="6a81d845-d776-a996-12c3-39acecaaf4cf" testName="AddNonExistingValue" computerName="SLAVI-PC" duration="00:00:00.6359541" startTime="2014-03-04T17:45:45.3222663+02:00" endTime="2014-03-04T17:45:47.5233922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba11ed6a-3e70-43ce-83ff-fb22002e9130">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BinarySearchTreeTest.BinarySearchTreeTest.AddNonExistingValue threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at BinarySearchTreeTest.BinarySearchTreeTest.AddNonExistingValue() in D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\BinarySearchTreeTests.cs:line 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28af5e8e-1b15-4beb-86c0-cfcd73146a33" testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" testName="AddExistingValue" computerName="SLAVI-PC" duration="00:00:00.0817556" startTime="2014-03-04T17:45:47.6313984+02:00" endTime="2014-03-04T17:45:47.7514053+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28af5e8e-1b15-4beb-86c0-cfcd73146a33">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BinarySearchTreeTest.BinarySearchTreeTest.AddExistingValue threw exception System.NullReferenceException, but exception System.ArgumentException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at BinarySearchTreeTest.BinarySearchTreeTest.AddExistingValue() in D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\BinarySearchTreeTests.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="939ed73a-b5ed-4c39-b3f3-0addc9149d3c" testId="9db95584-4a59-062b-9d1d-372e860bed82" testName="TraversePostorderTest" computerName="SLAVI-PC" duration="00:00:00.0325567" startTime="2014-03-04T17:45:47.8014081+02:00" endTime="2014-03-04T17:45:47.9364158+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="939ed73a-b5ed-4c39-b3f3-0addc9149d3c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BinarySearchTreeTest.BinarySearchTreeTest.TraversePostorderTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at BinarySearchTreeTest.BinarySearchTreeTest.TraversePostorderTest() in D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\BinarySearchTreeTests.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce2f84f9-d850-45d1-a423-32a7765bba9f" testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" testName="TraverseInorderTest" computerName="SLAVI-PC" duration="00:00:00.0041258" startTime="2014-03-04T17:45:48.0074199+02:00" endTime="2014-03-04T17:45:48.1894303+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce2f84f9-d850-45d1-a423-32a7765bba9f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

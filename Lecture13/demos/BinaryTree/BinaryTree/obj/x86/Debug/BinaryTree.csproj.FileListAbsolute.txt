@@ -1,0 +1,4 @@
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\obj\x86\Debug\BinaryTree.exe
+D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\obj\x86\Debug\BinaryTree.pdb

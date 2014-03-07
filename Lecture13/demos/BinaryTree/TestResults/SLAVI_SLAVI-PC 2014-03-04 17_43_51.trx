@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2eb4c138-6086-4223-9bd4-8475f235189d" name="SLAVI@SLAVI-PC 2014-03-04 17:43:51" runUser="SLAVI-PC\SLAVI" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d28892ec-565e-4334-ab65-45c144d4e422">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="SLAVI_SLAVI-PC 2014-03-04 17_43_51">
+      <DeploymentItem filename="D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-04T17:43:51.7417699+02:00" queuing="2014-03-04T17:43:51.8027734+02:00" start="2014-03-04T17:43:52.0697887+02:00" finish="2014-03-04T17:43:55.3749777+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddNonExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="6a81d845-d776-a996-12c3-39acecaaf4cf">
+      <Execution id="09553a78-ddb8-4d2b-8763-a8af59df5cf0" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNonExistingValue" />
+    </UnitTest>
+    <UnitTest name="AddExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29">
+      <Execution id="f424cb21-a936-4b4d-a6bd-2026e3a85c4c" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddExistingValue" />
+    </UnitTest>
+    <UnitTest name="TraversePostorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="9db95584-4a59-062b-9d1d-372e860bed82">
+      <Execution id="0101a7fd-a843-489d-af7e-fe00f5145afd" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraversePostorderTest" />
+    </UnitTest>
+    <UnitTest name="TraverseInorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="fa1f1bd7-7ca4-3c54-6d93-e128607ee590">
+      <Execution id="90a4e6c7-9062-41b6-9a50-3f74eed8b257" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraverseInorderTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a81d845-d776-a996-12c3-39acecaaf4cf" executionId="09553a78-ddb8-4d2b-8763-a8af59df5cf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" executionId="f424cb21-a936-4b4d-a6bd-2026e3a85c4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db95584-4a59-062b-9d1d-372e860bed82" executionId="0101a7fd-a843-489d-af7e-fe00f5145afd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" executionId="90a4e6c7-9062-41b6-9a50-3f74eed8b257" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="09553a78-ddb8-4d2b-8763-a8af59df5cf0" testId="6a81d845-d776-a996-12c3-39acecaaf4cf" testName="AddNonExistingValue" computerName="SLAVI-PC" duration="00:00:00.1313589" startTime="2014-03-04T17:43:52.2527991+02:00" endTime="2014-03-04T17:43:53.7878869+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09553a78-ddb8-4d2b-8763-a8af59df5cf0">
+    </UnitTestResult>
+    <UnitTestResult executionId="f424cb21-a936-4b4d-a6bd-2026e3a85c4c" testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" testName="AddExistingValue" computerName="SLAVI-PC" duration="00:00:00.2521221" startTime="2014-03-04T17:43:53.9088938+02:00" endTime="2014-03-04T17:43:54.2799151+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f424cb21-a936-4b4d-a6bd-2026e3a85c4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="0101a7fd-a843-489d-af7e-fe00f5145afd" testId="9db95584-4a59-062b-9d1d-372e860bed82" testName="TraversePostorderTest" computerName="SLAVI-PC" duration="00:00:00.0041302" startTime="2014-03-04T17:43:54.2829152+02:00" endTime="2014-03-04T17:43:54.4029221+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0101a7fd-a843-489d-af7e-fe00f5145afd">
+    </UnitTestResult>
+    <UnitTestResult executionId="90a4e6c7-9062-41b6-9a50-3f74eed8b257" testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" testName="TraverseInorderTest" computerName="SLAVI-PC" duration="00:00:00.0008890" startTime="2014-03-04T17:43:54.4109226+02:00" endTime="2014-03-04T17:43:54.7069395+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a4e6c7-9062-41b6-9a50-3f74eed8b257">
+    </UnitTestResult>
+  </Results>
+</TestRun>

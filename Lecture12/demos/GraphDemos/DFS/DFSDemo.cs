@@ -3,29 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BFS
+namespace DFS
 {
-    class BFSDemo
+    class DFSDemo
     {
         static int n;
         static int[,] a;
         static bool[] used;
 
-        static void BFS(int i)
+        static void DFS(int i)
         {
-            Queue<int> q = new Queue<int>();
+            Stack<int> s = new Stack<int>();
             int current;
-            q.Enqueue(i);
+            s.Push(i);
             used[i] = true;
-            while (q.Count>0)
+            while (s.Count > 0)
             {
-                current = q.Dequeue();
-                Console.Write("{0} ", current+1);
-                for (int j = 0; j < n; j++)
+                current = s.Pop();
+                Console.Write("{0} ", current + 1);
+                for (int j = n-1; j >= 0; j--)
                 {
-                    if (a[current, j]==1 && !used[j])
+                    if (a[current, j] == 1 && !used[j])
                     {
-                        q.Enqueue(j);
+                        s.Push(j);
                         used[j] = true;
                     }
                 }
@@ -49,13 +49,13 @@ namespace BFS
                 s = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 u = int.Parse(s[0]);
                 v = int.Parse(s[1]);
-                a[u-1, v-1] = 1;
-                a[v-1, u-1] = 1; // for undirected graph
+                a[u - 1, v - 1] = 1;
+                a[v - 1, u - 1] = 1; // for undirected graph
             }
             Console.Write("Enter a vertex to start with: ");
             int start = int.Parse(Console.ReadLine());
             Console.WriteLine("Start from {0}", start);
-            BFS(start-1);
+            DFS(start - 1);
         }
     }
 }

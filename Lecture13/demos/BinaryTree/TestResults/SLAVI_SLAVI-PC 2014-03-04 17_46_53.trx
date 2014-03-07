@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13464adc-ffc0-4760-8e8b-82c26aeaade1" name="SLAVI@SLAVI-PC 2014-03-04 17:46:53" runUser="SLAVI-PC\SLAVI" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d28892ec-565e-4334-ab65-45c144d4e422">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="SLAVI_SLAVI-PC 2014-03-04 17_46_53">
+      <DeploymentItem filename="D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-04T17:46:53.3561576+02:00" queuing="2014-03-04T17:46:53.3781589+02:00" start="2014-03-04T17:46:53.6031718+02:00" finish="2014-03-04T17:46:57.3313850+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddNonExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="6a81d845-d776-a996-12c3-39acecaaf4cf">
+      <Execution id="1399dc9a-d77e-49de-980f-2a21bfbb2d83" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNonExistingValue" />
+    </UnitTest>
+    <UnitTest name="AddExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29">
+      <Execution id="4d81e61d-3188-417f-9d37-6555a4a371a9" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddExistingValue" />
+    </UnitTest>
+    <UnitTest name="TraversePostorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="9db95584-4a59-062b-9d1d-372e860bed82">
+      <Execution id="d806a47d-ac87-4b77-b37d-8bb87cf2c6df" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraversePostorderTest" />
+    </UnitTest>
+    <UnitTest name="TraverseInorderTest" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="fa1f1bd7-7ca4-3c54-6d93-e128607ee590">
+      <Execution id="64a2453a-a796-4453-9513-d5fe80e0da7a" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraverseInorderTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a81d845-d776-a996-12c3-39acecaaf4cf" executionId="1399dc9a-d77e-49de-980f-2a21bfbb2d83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" executionId="4d81e61d-3188-417f-9d37-6555a4a371a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db95584-4a59-062b-9d1d-372e860bed82" executionId="d806a47d-ac87-4b77-b37d-8bb87cf2c6df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" executionId="64a2453a-a796-4453-9513-d5fe80e0da7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1399dc9a-d77e-49de-980f-2a21bfbb2d83" testId="6a81d845-d776-a996-12c3-39acecaaf4cf" testName="AddNonExistingValue" computerName="SLAVI-PC" duration="00:00:00.0752250" startTime="2014-03-04T17:46:53.6481743+02:00" endTime="2014-03-04T17:46:55.3922741+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1399dc9a-d77e-49de-980f-2a21bfbb2d83">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d81e61d-3188-417f-9d37-6555a4a371a9" testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" testName="AddExistingValue" computerName="SLAVI-PC" duration="00:00:00.1634100" startTime="2014-03-04T17:46:55.4832793+02:00" endTime="2014-03-04T17:46:55.8342994+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d81e61d-3188-417f-9d37-6555a4a371a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="d806a47d-ac87-4b77-b37d-8bb87cf2c6df" testId="9db95584-4a59-062b-9d1d-372e860bed82" testName="TraversePostorderTest" computerName="SLAVI-PC" duration="00:00:00.3137083" startTime="2014-03-04T17:46:55.9033033+02:00" endTime="2014-03-04T17:46:56.3433285+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d806a47d-ac87-4b77-b37d-8bb87cf2c6df">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;25 18 14 12 10 5&gt;. Actual:&lt;25&gt;. </Message>
+          <StackTrace>   at BinarySearchTreeTest.BinarySearchTreeTest.TraversePostorderTest() in D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTreeTests\BinarySearchTreeTests.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64a2453a-a796-4453-9513-d5fe80e0da7a" testId="fa1f1bd7-7ca4-3c54-6d93-e128607ee590" testName="TraverseInorderTest" computerName="SLAVI-PC" duration="00:00:00.1876830" startTime="2014-03-04T17:46:56.4553349+02:00" endTime="2014-03-04T17:46:56.9423628+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64a2453a-a796-4453-9513-d5fe80e0da7a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

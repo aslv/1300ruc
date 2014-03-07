@@ -1,0 +1,5 @@
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\DFS\bin\Debug\DFS.exe
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\DFS\bin\Debug\DFS.pdb
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\DFS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\DFS\obj\x86\Debug\DFS.exe
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\DFS\obj\x86\Debug\DFS.pdb

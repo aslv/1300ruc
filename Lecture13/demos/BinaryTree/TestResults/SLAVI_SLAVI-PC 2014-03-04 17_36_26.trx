@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e587a976-00e5-4551-9f0f-4ad5529cf7a7" name="SLAVI@SLAVI-PC 2014-03-04 17:36:26" runUser="SLAVI-PC\SLAVI" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d28892ec-565e-4334-ab65-45c144d4e422">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="SLAVI_SLAVI-PC 2014-03-04 17_36_26">
+      <DeploymentItem filename="D:\CSharp-course\repo\1300ruc\Lecture13\demos\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-04T17:36:26.4182988+02:00" queuing="2014-03-04T17:36:26.4703018+02:00" start="2014-03-04T17:36:26.5983091+02:00" finish="2014-03-04T17:36:30.1295111+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddExistingValue" storage="d:\csharp-course\repo\1300ruc\lecture13\demos\binarytree\binarytreetests\bin\debug\binarytreetests.dll" id="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29">
+      <Execution id="e0f617ee-4a01-4369-b5f7-326e6b1dd64c" />
+      <TestMethod codeBase="D:/CSharp-course/repo/1300ruc/Lecture13/demos/BinaryTree/BinaryTreeTests/bin/Debug/BinaryTreeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinarySearchTreeTest.BinarySearchTreeTest, BinaryTreeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddExistingValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" executionId="e0f617ee-4a01-4369-b5f7-326e6b1dd64c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e0f617ee-4a01-4369-b5f7-326e6b1dd64c" testId="8ad3c89a-088d-dffd-8e8d-5af55eb1bd29" testName="AddExistingValue" computerName="SLAVI-PC" duration="00:00:00.1767949" startTime="2014-03-04T17:36:26.7113156+02:00" endTime="2014-03-04T17:36:29.6094814+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0f617ee-4a01-4369-b5f7-326e6b1dd64c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

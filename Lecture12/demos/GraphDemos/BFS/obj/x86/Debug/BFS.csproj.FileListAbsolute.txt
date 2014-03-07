@@ -1,0 +1,5 @@
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\BFS\bin\Debug\BFS.exe
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\BFS\bin\Debug\BFS.pdb
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\BFS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\BFS\obj\x86\Debug\BFS.exe
+D:\CSharp-course\repo\1300ruc\Lecture12\demos\GraphDemos\BFS\obj\x86\Debug\BFS.pdb
